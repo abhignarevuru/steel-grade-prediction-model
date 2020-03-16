@@ -8,11 +8,11 @@ PC <- read_excel("Passing Compositions.xlsx",
 
 # Input data
 {
-C <- readline(prompt = "C = ");
-Mn <- readline(prompt = "Mn = ");
-P <- readline(prompt = "P = ");
-S <- readline(prompt = "S = ");
-Si <- readline(prompt = "Si = ");
+C <- as.numeric(readline(prompt = "C = "));
+Mn <- as.numeric(readline(prompt = "Mn = "));
+P <- as.numeric(readline(prompt = "P = "));
+S <- as.numeric(readline(prompt = "S = "));
+Si <- as.numeric(readline(prompt = "Si = "));
 }
 
 result <- vector()
