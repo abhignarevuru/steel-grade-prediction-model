@@ -5,9 +5,6 @@ library(readxl)
 PC <- read_excel("Passing Compositions.xlsx", 
                  col_types = c("text", "text", "numeric", "numeric", "numeric", "numeric", "numeric",
                                "numeric", "numeric", "numeric", "numeric", "numeric"))
-AC <- read_excel("Papa's lab analysis/Aiming Compositions.xlsx", 
-                 col_types = c("text", "text", "numeric", "numeric", "numeric", "numeric", "numeric",
-                               "numeric", "numeric", "numeric", "numeric", "numeric"))
 
 # Input data
 {
